@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="skript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Work+Sans:wght@100&display=swap');
+     </style>
+    <title>Object</title>
+</head>
+
+<body>
+    <div class="task_container">
+        <h2>Task 1</h2>
+        <h3>"Створи об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом: Для виведення часу на екран."</h3>
+        <div class="task_1">
+            <form action="javascript:">
+                <button class="first_btn" onclick="findCommonTime()">Check your time</button>
+            </form>
+            <div>
+                <p>Now: <span class="answer1"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h2>Task 2</h2>
+        <h3>"Створи об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом: Зміни часу на передану кількість секунд."</h3>
+        <div class="task_2">
+            <form action="javascript:">
+                <label for="second"></label>
+                <input class="second" type="number" name="second" placeholder="Enter the number of seconds">
+                <button class="second_btn" onclick="findCommonSecond()">Check your time</button>
+            </form>
+            <div>
+                <p>Result: <span class="answer2"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h2>Task 3</h2>
+        <h3>"Створи об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом: Зміни часу на передану кількість хвилин."</h3>
+        <div class="task_3">
+            <form action="javascript:">
+                <label for="minute"></label>
+                <input class="minute" type="text" name="minute" placeholder="Enter the number of minutes">
+                <button class="third_btn" onclick="findCommonMinute()">Check your time</button>
+            </form>
+            <div>
+                <p>Result: <span class="answer3"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h2>Task 4</h2>
+        <h3>"Створи об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом: Зміни часу на передану кількість годин."</h3>
+        <div class="task_4">
+            <form action="javascript:">
+                <label for="hour"></label>
+                <input class="hour" type="text" name="hour" placeholder="Enter the number of hours">
+                <button class="forth_btn" onclick="findCommonMinute()">Check your time</button>
+            </form>
+            <div>
+                <p>Result: <span class="answer4"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
