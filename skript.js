@@ -7,8 +7,6 @@ function findCommonTime() {
 
 
 
-//не работает, отдает другое время
-
 document.querySelector('.second_btn').onclick = findCommonSecond
 
 function findCommonSecond() {
